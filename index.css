@@ -1,0 +1,132 @@
+html,body{
+	margin:0;
+	padding:0;
+	width: 100%;
+	height: 100%;
+	background-color: #F2F1ED;
+}
+.lineclassContainer{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.linkClass{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	float:left;
+}
+.timeline{
+    width: 100px;
+    height: 92%;
+    margin-left: 50px;
+    border-left: 2px solid black;
+}
+
+.pageContainer{
+	width: 100px;
+	height: 100%;
+	background-color:rgba(50,50,50,0.7);
+	position: fixed;
+	bottom: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  }
+
+ #up{
+	border: none;
+    background-color: rgba(150,150,150,0.7);
+    width: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+ #down{
+	border: none;
+    background-color: rgba(150, 150, 150,0.7);
+    width: 100px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+ ul{
+    height: 91.5%;
+    margin-top: auto;
+    position: fixed;
+    display: inline-grid;
+    align-items: center;
+    width: 50px;
+ }
+/*
+li{
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	border: 2px solid black;
+	background-color: white;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px; 
+	margin-top: 5.348%;
+	margin-bottom: 5.348%;
+	z-index: 3;
+}
+*/
+#selected{
+	background-color: black;
+}
+
+.page{
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	border: 2px solid black;
+	background-color: white;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px; 
+	margin-top: 5.348%;
+	margin-bottom: 5.348%;
+	z-index: 3;
+}
+
+#page1{
+	background-color:#FF8787;
+}
+#page2{
+	background-color: #C94291;	
+}
+#page3{
+	background-color: #F96B89;
+}
+#page4{
+	background-color: #F24173;
+}
+#page5{
+	background-color: #D3395F;	
+}
+#page6{
+	background-color: #FF2D99;
+}
+#page7{
+	background-color: #CC2497;
+}
+#page8{
+	background-color: #DB1866;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
