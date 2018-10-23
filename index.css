@@ -8,12 +8,11 @@ html,body{
 .lineclassContainer{
 	width: 100%;
 	height: 100%;
-	float: left;
 }
 .linkClass{
 	width: 100%;
 	height: 100%;
-	display: inline-block;
+	display: inline;
 	float:left;
 }
 .timeline{
@@ -32,7 +31,8 @@ html,body{
   	display: flex;
   	align-items: center;
   	justify-content: center;
-  }
+  	counter-reset:step;
+}
 
  #up{
 	border: none;
@@ -58,7 +58,7 @@ html,body{
     position: fixed;
     display: inline-grid;
     align-items: center;
-    width: 50px;
+    width: 55px;
  }
 /*
 li{
@@ -79,15 +79,26 @@ li{
 	background-color: black;
 }
 
+.page::before{
+	content: counter(step);
+	counter-increment: step;
+	color: black;
+	font-family: trebuchet ms;
+	position: fixed;
+	left:47px;
+	margin-bottom: 3px;
+}
+
 .page{
+
 	list-style: none;
 	width: 100%;
 	height: 100%;
 	border: 2px solid black;
 	background-color: white;
 	border-radius: 50%;
-	width: 10px;
-	height: 10px; 
+	width: 15px;
+	height: 15px; 
 	margin-top: 5.348%;
 	margin-bottom: 5.348%;
 	z-index: 3;
