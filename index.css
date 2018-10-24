@@ -1,7 +1,3 @@
-*{
- 	font-family:trebuchet ms;
-}
-
 html,body{
 	margin:0;
 	padding:0;
@@ -12,14 +8,12 @@ html,body{
 .lineclassContainer{
 	width: 100%;
 	height: 100%;
-	overflow-x:hidden;
 }
 .linkClass{
 	width: 100%;
 	height: 100%;
 	display: inline;
 	float:left;
-	padding-left:110px;
 }
 .timeline{
     width: 100px;
@@ -33,6 +27,7 @@ html,body{
 	height: 100%;
 	background-color:rgba(50,50,50,0.7);
 	position: fixed;
+	left:0;
 	bottom: 0;
   	display: flex;
   	align-items: center;
@@ -42,23 +37,24 @@ html,body{
 
  #up{
 	border: none;
-    background-color: rgba(150,150,150,0.7);
     width: 100px;
-    position: fixed;
-    top: 0;
-    left: 0;
+    background-color: transparent;
+    position: absolute;
+    top: -32px;
+    left: -2px;
 }
 
  #down{
 	border: none;
-    background-color: rgba(150, 150, 150,0.7);
+	background-color: transparent;
+	color:white;
     width: 100px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    position: absolute;
+    bottom: -35px;
+    left: -2px;
 }
 
- .timelineUl{
+ ul{
     height: 91.5%;
     margin-top: auto;
     position: fixed;
@@ -90,13 +86,13 @@ li{
 	counter-increment: step;
 	color: black;
 	font-family: trebuchet ms;
-	position: fixed;
-	left:47px;
-	margin-top: -1.5px;
+	left:2.5px;
+	margin-top: -1px;	
+	position: absolute;
 }
 
 .page{
-
+	position: relative;
 	list-style: none;
 	width: 100%;
 	height: 100%;
