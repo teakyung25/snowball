@@ -128,9 +128,6 @@ li{
 #page11Position{
 	width:100%;
 	height:100%;
-  	position:absolute;
-  	align-items: center;
-  	justify-content: center;
 }
 #startP11 {
     letter-spacing: 10px;
