@@ -8,6 +8,15 @@ $(function() {
     }, 500 );
   });
 
+  $(".gone").mouseover(function() {
+    $(".pageContainer").animate({left:"0px"},100);
+    $(".page").animate({left:"0px"},100);
+  });
+  $(".gone").mouseleave(function() {
+    $(".pageContainer").animate({left:"-90px"},100);
+  });
+
+
    $(window).scroll(function(){
     var scrollPosition = $(this).scrollTop();
 
