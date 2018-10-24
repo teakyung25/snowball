@@ -17,7 +17,7 @@ $(function() {
   });
 
 
-   $(window).scroll(function(){
+   $('html,body,div,ul,a').scroll(function(){
     var scrollPosition = $(this).scrollTop();
 
   scrollANIMATE.each(function(){
