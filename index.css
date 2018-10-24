@@ -54,7 +54,7 @@ html,body{
     left: -2px;
 }
 
- ul{
+ .timelineUl{
     height: 91.5%;
     margin-top: auto;
     position: fixed;
