@@ -125,6 +125,11 @@ li{
 #page101 {
     text-align: center;
 }
+#page101Position{
+  	position:fixed;
+  	align-items: center;
+  	justify-content: center;
+}
 #startP101 {
     letter-spacing: 10px;
 }
