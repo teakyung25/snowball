@@ -1,5 +1,5 @@
 $(function() {
-  var scrollANIMATE = $('html,body,div,ul,a')
+  var scrollANIMATE = $('.page')
 
   scrollANIMATE.click(function(e) {
     e.preventDefault();
@@ -24,7 +24,7 @@ $(function() {
       var slidePosition = $(this.hash).offset().top
 
       if(scrollPosition >= slidePosition){
-        $('a').removeClass('selected');
+        $('.page').removeClass('selected');
         $(this).addClass('selected');
       }
       });
