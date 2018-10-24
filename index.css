@@ -31,7 +31,10 @@ html,body{
 }
 
 #startH1{
-	
+    font-size: 70px;
+    letter-spacing: 30px;
+    margin-top: 25%;
+    margin-bottom: 0px;
 }
 
 .pageContainer{
@@ -119,7 +122,12 @@ li{
 	margin-bottom: 5.348%;
 	z-index: 3;
 }
-
+#page101 {
+    text-align: center;
+}
+#startP101 {
+    letter-spacing: 10px;
+}
 #page1{
 	background-color:#FF8787;
 }
